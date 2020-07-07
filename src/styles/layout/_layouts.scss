@@ -1,0 +1,51 @@
+/**
+ * Layouts
+ *
+ */
+
+#root {
+  background: url('../../images/joel-filipe-VuwAfoHpxgs-unsplash\ 2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $app-background-color;
+  overflow: auto;
+}
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.footer-container {
+  @include flex-justify-evenly;
+
+  padding-bottom: 0;
+  background-color: $project-color-primary;
+  color: $project-color-white;
+  height: 258px;
+}
+
+.footer-container-box {
+  width: 30%;
+}
+
+.location-container,
+.social-container {
+  @include flex-column;
+}
+
+.contacts-container,
+.social-container {
+  width: fit-content;
+}
+
+.social-container {
+  justify-content: space-around;
+}
+
+.carousel-line {
+  margin-top: 0;
+  width: 25%;
+}

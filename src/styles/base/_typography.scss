@@ -1,0 +1,95 @@
+/**
+ * Typography setup
+ *
+ */
+
+// @font-face rules goes here
+
+h1 {
+  font-size: 42px !important;
+  line-height: 57px !important;
+  color: #0074a8;
+}
+
+h2 {
+  font-size: 3rem !important;
+  font-weight: bold;
+  line-height: 49px !important;
+  color: #0074a8;
+  text-shadow: 1px -1px $project-color-secondary-light;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: bold !important;
+  text-shadow: 1px -1px $project-color-secondary-light;
+  text-transform: uppercase;
+  color: #0074a8;
+}
+
+h4 {
+  font-size: 18px !important;
+  line-height: 21px !important;
+}
+
+h5 {
+  font-size: 2rem !important;
+  line-height: 21px !important;
+  color: $project-color-primary;
+}
+
+label {
+  font-size: 2rem;
+}
+
+input {
+  font-size: 1.7rem !important;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: #ffff00;
+  border: 1px solid $project-color-secondary !important;
+}
+
+.address-name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 0;
+}
+.contact-name {
+  font-size: 14px;
+  line-height: 19px;
+
+  margin-bottom: 5px;
+}
+
+.read-more {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 22px;
+  color: $project-color-primary;
+}
+
+.read-more:hover {
+  cursor: pointer;
+}
+
+.small-text {
+  font-weight: normal;
+  font-size: 12px;
+  color: #848484;
+}
+
+a {
+  font-size: 1.5rem !important;
+}
+
+li > a {
+  font-size: 1.5rem;
+}
