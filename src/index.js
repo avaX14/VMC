@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'connected-react-router';
+import { HashRouter } from 'react-router-dom';
 import * as Sentry from '@sentry/browser';
 import config from 'config';
 import history from 'utils/history';
@@ -27,11 +28,11 @@ const render = messages => {
   ReactDOM.render(
     <Provider store={store}>
       <LanguageProvider locale={LOCALES.SERBIAN}>
-        <ConnectedRouter history={history}>
+        <HashRouter history={history}>
           <ErrorBoundry>
             <App />
           </ErrorBoundry>
-        </ConnectedRouter>
+        </HashRouter>
       </LanguageProvider>
     </Provider>,
     MOUNT_NODE
