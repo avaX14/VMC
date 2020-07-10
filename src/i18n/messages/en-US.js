@@ -2,7 +2,7 @@ import LOCALES from '../locales';
 
 export default {
   [LOCALES.ENGLISH]: {
-    hello: 'Hello',
-    test: 'This is very {label} test!'
+    aboutUs: 'About us',
+    ourMission: 'Naša misija'
   }
 };

@@ -25,12 +25,16 @@
   justify-content: center;
 }
 .learning-platform {
+  border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
   height: 70px;
-  background: rgba(111, 192, 93, 0.55);
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 2px 3px 3px rgba(111, 192, 93, 0.25);
+  border: 1px solid #6fc05d;
   p {
     font-weight: bold;
     font-size: 2.5rem;
@@ -43,7 +47,7 @@
 
   &:hover {
     cursor: pointer;
-    background: rgba(111, 192, 93, 0.75);
+    border: 2px solid #6fc05d;
   }
 }
 
@@ -102,10 +106,16 @@
   color: $project-color-white !important;
 }
 
-.topbar {
-  position: relative;
+.topbar-container {
+  width: 100%;
   background-color: $project-color-white;
+}
+
+.topbar {
   padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .box-container {
@@ -327,9 +337,6 @@
 }
 
 .select-language {
-  position: absolute;
-  top: 20px;
-  right: 0;
 }
 
 .members-box {

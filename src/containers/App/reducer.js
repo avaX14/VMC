@@ -11,7 +11,7 @@ import {
 export const initialState = {
   token: getItem('token') || null,
   user: null,
-  language: 'SRB'
+  language: 'srb'
 };
 
 /* eslint-disable default-case */
@@ -31,7 +31,7 @@ const appReducer = (state = initialState, action) =>
         draft.token = action.token;
         break;
       case SET_LANGUAGE:
-        return { ...state, language: action.language };
+        draft.language = action.langugage === 'US' ? 'en-us' : 'srb';
     }
   });
 

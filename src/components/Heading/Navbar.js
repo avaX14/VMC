@@ -59,7 +59,7 @@ const Navbar = () => {
           ></NavItem>
           <NavItem
             name="Kontakt"
-            path="/s"
+            path="/"
             location={location.pathname}
           ></NavItem>
           <NavItem
