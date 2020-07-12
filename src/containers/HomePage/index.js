@@ -9,6 +9,7 @@ import Textbox from 'components/TextBox/Textbox';
 import Regions from 'components/Regions/Regions';
 import CompaniesCarousel from 'components/Carousel/CompaniesCarousel';
 import TextboxContainer from 'components/TextBox/TextboxContainer';
+import NewsContainer from 'components/NewsContainer/NewsContainer';
 
 function HomePage() {
   const { formatMessage } = useIntl();
@@ -32,9 +33,12 @@ function HomePage() {
           })}
         </p>
       </main> */}
-
-      <TextboxContainer></TextboxContainer>
-
+      <div className="basic-container">
+        <div className="box-container center-container">
+          <TextboxContainer></TextboxContainer>
+          <NewsContainer></NewsContainer>
+        </div>
+      </div>
       <Regions></Regions>
       <CompaniesCarousel></CompaniesCarousel>
     </div>

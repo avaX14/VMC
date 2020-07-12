@@ -1,6 +1,7 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import translate from 'i18n/translate';
+import { Link } from 'react-router-dom';
 
 const MembersPage = () => {
   return (
@@ -96,6 +97,11 @@ const MembersPage = () => {
           </span>{' '}
           na domaćem i stranom tržištu.
         </p>
+      </div>
+      <div className="become-member">
+        {/* <Link to="../../files/prijava-za-clanstvo.doc" target="_blank" download> */}
+        <h4 className="text-uppercase">Učlani se</h4>
+        {/* </Link> */}
       </div>
     </ScrollAnimation>
   );

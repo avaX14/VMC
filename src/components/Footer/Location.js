@@ -13,22 +13,28 @@ const myIcon = Leaflet.icon({
 
 const position = [45.404243, 19.890595];
 
-export default function Location() {
+const Location = ({ zoom, title }) => {
+  console.log('ZZZOOOOOM', zoom);
   return (
     <div className="location-container">
-      <h4 className="text-uppercase mb-3">{translate('location')}</h4>
-      <Map className="map mt-2 mb-2" center={position} zoom={17}>
+      {title ? (
+        <h4 className="text-uppercase mb-3">{translate('location')}</h4>
+      ) : null}
+
+      <Map className="map mt-2 mb-2" center={position} zoom={zoom}>
         <TileLayer
           attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <Marker position={position} icon={myIcon}>
           <Popup>
-            <span>"DSADSA"</span>
+            <span>Vojvodina Metal Cluster</span>
           </Popup>
         </Marker>
       </Map>
       <p className="address-name">Novosadska 322, Temerin</p>
     </div>
   );
-}
+};
+
+export default Location;

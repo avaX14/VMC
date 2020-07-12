@@ -21,13 +21,15 @@ import {
   ABOUT,
   STRUCTURE,
   MEMBERS,
-  PROJECTS
+  PROJECTS,
+  CONTACT
 } from 'routes';
 import HomePage from 'containers/HomePage';
 import AboutPage from 'containers/AboutPage';
 import StructurePage from 'containers/StructurePage';
 import MembersPage from 'containers/MembersPage';
 import ProjectsPage from 'containers/ProjectsPage';
+import ContactPage from 'containers/ContactPage';
 
 export default function Routes() {
   return (
@@ -37,6 +39,7 @@ export default function Routes() {
       <PublicRoute exact path={STRUCTURE} component={StructurePage} />
       <PublicRoute exact path={MEMBERS} component={MembersPage} />
       <PublicRoute exact path={PROJECTS} component={ProjectsPage} />
+      <PublicRoute exact path={CONTACT} component={ContactPage} />
       <PrivateRoute exact path={DASHBOARD} component={Dashboard} />
       <PrivateRoute exact path={USER_PROFILE} component={UserProfilePage} />
       <PublicRoute exact path={LOGIN} component={LoginPage} />

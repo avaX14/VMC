@@ -19,7 +19,7 @@ export default {
     contactData: 'Kontakt podaci',
     companyData: 'Podaci kompanije',
     aboutUsHome:
-      'Poslovno udruženje za unapređenje konkurentnosti metalskog sektora Srbije i najznačajnija asocijacija metalaca u Srbiji. {tag} Osnovani u Temerinu, 2011. godine od strane 71 osnivača. {tag} VMC je nastao kao jedan od ključnih rezultata istoimenog projekta koji je realizovan uz finansijsku podršku EU. Projekat je podržala Vlada AP Vojvodine.{tag}{tag}Naša misija je da stvaramo uslove za efektivno i efikasno poslovanje svakog člana Vojovidina Metal Cluster-a kroz povezivanje i zajedničko delovanje preduzeća, organa uprave i naučno-istraživačkih i inovativnih institucija',
+      'Poslovno udruženje za unapređenje konkurentnosti metalskog sektora Srbije i najznačajnija asocijacija metalaca u Srbiji. {tag} Osnovani u Temerinu, 2011. godine od strane 71 osnivača. {tag} VMC je nastao kao jedan od ključnih rezultata istoimenog projekta koji je realizovan uz finansijsku podršku EU. Projekat je podržala Vlada AP Vojvodine.',
     vmc: 'Vojvodina Metal Cluster (VMC)',
     rsedp2: 'RSEDP2',
     economicDevelopment: 'razvoja privrede',

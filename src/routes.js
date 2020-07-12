@@ -9,3 +9,4 @@ export const ABOUT = '/about';
 export const STRUCTURE = '/structure';
 export const MEMBERS = '/members';
 export const PROJECTS = '/projects';
+export const CONTACT = '/contact';

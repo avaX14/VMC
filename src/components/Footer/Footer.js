@@ -11,10 +11,10 @@ export default function Footer() {
   return (
     <footer className="footer-container pt-4 pb-4">
       <div className="footer-container-box">
-        <Location></Location>
+        <Location zoom={17} title={true}></Location>
       </div>
       <div className="footer-container-box d-flex justify-content-center">
-        <div className="contact-container">
+        <div>
           <h4 className="mb-4 text-uppercase">{translate('contact')}</h4>
           <p className="contact-name">Zoran Pekez</p>
           <p className="contact-name">+ 381 (0)21 844 - 923</p>

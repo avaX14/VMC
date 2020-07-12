@@ -5,20 +5,14 @@ import translate from '../../i18n/translate';
 
 export default function TextboxContainer() {
   return (
-    <div className="box-container">
-      <ScrollAnimation
-        className="center-container"
-        animateIn="bounceInLeft"
-        duration={2}
-      >
-        <Textbox title={translate('aboutUs')} path="/about">
-          {translate('aboutUsHome', { tag: <br /> })}
-        </Textbox>
-
-        <Textbox className="news" title={translate('ourMission')} path="/about">
-          {translate('ourMissionHome')}
-        </Textbox>
-      </ScrollAnimation>
-    </div>
+    <ScrollAnimation
+      className=" child-35"
+      animateIn="bounceInLeft"
+      duration={2}
+    >
+      <Textbox title={translate('aboutUs')} path="/about">
+        {translate('aboutUsHome', { tag: <br /> })}
+      </Textbox>
+    </ScrollAnimation>
   );
 }

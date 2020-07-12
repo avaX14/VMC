@@ -22,3 +22,19 @@
     cursor: pointer;
   }
 }
+
+.become-member {
+  width: 150px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: rgba(111, 192, 93, 0.25);
+  border-radius: 0px 0px 5px 5px;
+  padding: 10px;
+  border-top: 1px solid #0074a8;
+
+  &:hover {
+    cursor: pointer;
+    background: rgba(111, 192, 93, 0.55);
+  }
+}

@@ -36,6 +36,7 @@ const Navbar = () => {
             path="/"
             location={location.pathname}
           ></NavItem>
+          <NavItem name="Vesti" path="" location={location.pathname}></NavItem>
           <NavItem
             name={translate('aboutUs')}
             path="/about"
@@ -59,14 +60,14 @@ const Navbar = () => {
           ></NavItem>
           <NavItem
             name="Kontakt"
-            path="/"
+            path="/contact"
             location={location.pathname}
           ></NavItem>
-          <NavItem
+          {/* <NavItem
             name="Uloguj se"
             path="/login"
             location={location.pathname}
-          ></NavItem>
+          ></NavItem> */}
         </ul>
       </div>
     </nav>

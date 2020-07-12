@@ -1,6 +1,5 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import ScrollAnimation from 'react-animate-on-scroll';
 import translate from '../../i18n/translate';
 
 const Textbox = ({ title, path, children, className }) => {
